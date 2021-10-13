@@ -4,7 +4,7 @@
 但是不完善很多功能不完善，实现了前后端分离，下单，评论，个人中心，邮箱发送找回密码，后台商品，用户管理等，因个人是初学者导致很多东西不会，
 #### 系统前台 - 首页
 
-![image](https://github.com/Tsaiboosm/Huan/order1.html)
+![image](https://github.com/Tsaiboosm/Huan/tree/main/saobs/1.png)
 ![contents](https://github.com/Tsaiboosm/Huan/tree/main/saobs/2.png)
 
 #### 系统后台 - 大致功能演示
