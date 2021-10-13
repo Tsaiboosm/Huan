@@ -1,0 +1,186 @@
+.rotation{
+    /* width: 1200px; */
+    height: 550px;
+    position: relative;
+}
+.list{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;      
+}
+.item  .imgindex{
+    width: 100%;
+    height: 85%;
+    /* display: inline-block; */
+    margin: 0;
+    position: absolute;
+    opacity: 0;
+    transition: all 1s;
+}
+.btn{
+    outline: none;
+    width: 56px;
+    font-size: 28px;
+    height: 56px;
+    color: white;
+    border: none;
+    border-radius: 28px;
+    background-color: #86838356;
+    position: absolute;
+    top: 211px;
+    z-index: 99;
+}
+.btn:hover{
+    background-color: #868383be;
+}
+#goPre{
+    left: 286px;
+}
+#goNext{
+    right: 100px;
+}
+.imgindex.active{      
+    position: absolute;
+    z-index: 12;
+    opacity: 1;
+}
+
+
+/* 按钮 */
+.pointlist{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    bottom: 91px;
+    right: 35px;
+    z-index: 1000;
+}
+.point{
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    cursor: pointer;
+    float: left;
+    margin-left:8px; 
+}
+.point:hover{
+    background-color: #fff;
+}
+.point.active{
+    background-color: #fff;
+}
+
+
+
+.home-recommend-goods {
+   margin-left: 160px;
+    width: 100$;
+margin: 0 auto;
+}
+.home-recommend-goods .h .title {
+   font-size: 26px;
+    color: #333;
+    padding: 27px 0 13px 0;
+}
+.home-recommend-goods .h {
+    position: relative;
+	margin-left: 240px;
+}
+.home-recommend-goods .b {
+    position: relative;
+    width: 1200px;
+    _zoom: 1;
+}
+.index-channel-floor .b {
+    height: auto;
+	width:1200px;
+	margin:0 auto;
+	display: flex;
+
+}
+.span-232 {
+    width: 232px;
+}
+.fl, .left, .left-area {
+    float: left;
+}
+.span-968 {
+    width: 968px;
+}
+.index-channel-floor .grid-promo-list {
+    margin: 0 0 0 -10px;
+}
+.index-channel-floor .grid-items-sm {
+    height: 592px;
+}
+.index-channel-floor .grid-items {
+    width: 230px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+.grid-items .thumb {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+ins, a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+.index-channel-floor .b .grid-items .grid-img {
+    width: 150px;
+    height: 150px;
+    margin: 35px auto 0;
+}
+.index-channel-floor .b .grid-items .grid-title {
+    width: 210px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 12px;
+    height: 21px;
+    line-height: 21px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.grid-items .grid-title {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 16px 20px 2px;
+    overflow: hidden;
+    color: #3a3a3a;
+    height: 40px;
+    display: table-cell;
+    vertical-align: bottom;
+    width: 259px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 26px;
+}
+.index-channel-floor .grid-items-sm img {
+    width: 230px;
+    height: 705px;
+    border-radius: 10px;
+}
+.index-channel-floor .b .grid-items .grid-desc {
+    color: #777;
+    line-height: 18px;
+    padding: 0 10px;
+    margin: 2px 20px 7px;
+}
+.index-channel-floor .b .grid-items .grid-price {
+    color: #d0021b;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+
